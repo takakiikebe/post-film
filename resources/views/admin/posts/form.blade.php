@@ -14,13 +14,14 @@
     <label for="category" class="col-md-4 control-label">{{ 'Category' }}</label>
     <div class="col-md-6">
         <select name="category" class="form-control" id="category" >
-    @foreach (json_decode('{"action": "Action", "serious": "Serious", "shocking": "Shocking", "romance": "Romance", "comedy": "Comedy", "heartful": "Heartful", }', true) as $optionKey => $optionValue)
+    @foreach (json_decode('{"technology": "Technology", "tips": "Tips", "health": "Health"}', true) as $optionKey => $optionValue)
         <option value="{{ $optionKey }}" {{ (isset($post->category) && $post->category == $optionKey) ? 'selected' : ''}}>{{ $optionValue }}</option>
     @endforeach
 </select>
         {!! $errors->first('category', '<p class="help-block">:message</p>') !!}
     </div>
 </div>
+
 <div class="form-group">
     <div class="col-md-offset-4 col-md-4">
         <input class="btn btn-primary" type="submit" value="{{ $submitButtonText or 'Create' }}">
