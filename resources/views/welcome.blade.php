@@ -83,11 +83,11 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://cinema-list.com/">Cinema</a>
+                    <a href="https://eiga-list.com">Eiga</a>
+                    <a href="https://album-list.com">Music-Album</a>
+                    <a href="https://book-list.co">Book</a>
+                    <a href="https://mylist24.com">Site</a>
                 </div>
             </div>
         </div>
