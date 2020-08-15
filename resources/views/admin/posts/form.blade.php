@@ -20,6 +20,12 @@
 </select>
         {!! $errors->first('category', '<p class="help-block">:message</p>') !!}
     </div>
+</div><div class="form-group {{ $errors->has('url1') ? 'has-error' : ''}}">
+    <label for="url1" class="col-md-4 control-label">{{ 'Url1' }}</label>
+    <div class="col-md-6">
+        <input class="form-control" name="url1" type="text" id="url1" value="{{ $post->url1 or ''}}" >
+        {!! $errors->first('url1', '<p class="help-block">:message</p>') !!}
+    </div>
 </div>
 
 <div class="form-group">
