@@ -33,7 +33,7 @@
                                                     <i class="fa fa-btn"></i>100
                                                 </button>
                                             </form>
-                                        </td> {{ $post->url1 }} </td></tr><tr><th> Url2 </th><td><form action="{{ url('site/'.$post->url2) }}">
+                                        {{ $post->url1 }} </td></tr><tr><th> Url2 </th><td><form action="{{ url('site/'.$post->url2) }}">
                                                 <button type="submit" class="btn btn-primary">
                                                     <i class="fa fa-btn"></i>100
                                                 </button>
