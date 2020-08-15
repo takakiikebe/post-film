@@ -27,7 +27,18 @@
                                     <tr>
                                         <th>ID</th><td>{{ $post->id }}</td>
                                     </tr>
-                                    <tr><th> Title </th><td> {{ $post->title }} </td></tr><tr><th> Content </th><td> {{ $post->content }} </td></tr><tr><th> Category </th><td> {{ $post->category }} </td></tr><tr><th> Url1 </th><td> {{ $post->url1 }} </td></tr><tr><th> Url2 </th><td> {{ $post->url2 }} </td></tr>
+                                    <tr><th> Title </th><td> {{ $post->title }} </td></tr><tr><th> Content </th><td> {{ $post->content }} </td></tr><tr><th> Category </th><td> {{ $post->category }} </td></tr><tr><th> Url1 </th><td>
+                                            <form action="{{ url('site/'.$post->url1) }}">
+                                                <button type="submit" class="btn btn-primary">
+                                                    <i class="fa fa-btn"></i>100
+                                                </button>
+                                            </form>
+                                        </td> {{ $post->url1 }} </td></tr><tr><th> Url2 </th><td><form action="{{ url('site/'.$post->url2) }}">
+                                                <button type="submit" class="btn btn-primary">
+                                                    <i class="fa fa-btn"></i>100
+                                                </button>
+                                            </form>
+ {{ $post->url2 }} </td></tr>
                                 </tbody>
                             </table>
                         </div>
