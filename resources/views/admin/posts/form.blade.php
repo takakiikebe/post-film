@@ -4,6 +4,12 @@
         <input class="form-control" name="title" type="text" id="title" value="{{ $post->title or ''}}" >
         {!! $errors->first('title', '<p class="help-block">:message</p>') !!}
     </div>
+</div><div class="form-group {{ $errors->has('release') ? 'has-error' : ''}}">
+    <label for="release" class="col-md-4 control-label">{{ 'Release' }}</label>
+    <div class="col-md-6">
+        <input class="form-control" name="release" type="text" id="release" value="{{ $post->release or ''}}" >
+        {!! $errors->first('release', '<p class="help-block">:message</p>') !!}
+    </div>
 </div><div class="form-group {{ $errors->has('content') ? 'has-error' : ''}}">
     <label for="content" class="col-md-4 control-label">{{ 'Content' }}</label>
     <div class="col-md-6">
