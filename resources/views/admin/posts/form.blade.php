@@ -26,6 +26,12 @@
         <input class="form-control" name="url1" type="text" id="url1" value="{{ $post->url1 or ''}}" >
         {!! $errors->first('url1', '<p class="help-block">:message</p>') !!}
     </div>
+</div><div class="form-group {{ $errors->has('url2') ? 'has-error' : ''}}">
+    <label for="url2" class="col-md-4 control-label">{{ 'Url2' }}</label>
+    <div class="col-md-6">
+        <input class="form-control" name="url2" type="text" id="url2" value="{{ $post->url2 or ''}}" >
+        {!! $errors->first('url2', '<p class="help-block">:message</p>') !!}
+    </div>
 </div>
 
 <div class="form-group">
