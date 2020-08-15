@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Recommend-List
                 </div>
 
                 <div class="links">
