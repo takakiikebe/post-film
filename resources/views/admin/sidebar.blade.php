@@ -10,8 +10,6 @@
                     <a href="{{ url('/admin') }}">
                         Dashboard
                     </a>
-                </li>
-                <li role="presentation">
                        -----------                
                 </li>
             </ul>
