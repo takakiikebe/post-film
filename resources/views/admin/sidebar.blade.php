@@ -10,43 +10,37 @@
                     <a href="{{ url('/admin') }}">
                         Dashboard
                     </a>
-                       -----------                
+                       　//                
                 </li>
             </ul>
             <ul class="nav" role="tablist">         
                 <li role="presentation">
                     <a href="http://mylist24.com/">
-                        Site-List
+                        Site
                     </a>
-                </li>
-                <li role="presentation">
-                       -----------   
+                        　//                   
                 </li>
             </ul>         
             <ul class="nav" role="tablist">         
                 <li role="presentation">
                     <a href="http://cinema-list.com/">
-                        Cinema-List
+                        Cinema
                     </a>
-                </li>
-                <li role="presentation">
-                       -----------   
+                        　//   
                 </li>
             </ul>
             <ul class="nav" role="tablist">            
                 <li role="presentation">
                     <a href="http://eiga-list.com/">
-                        Eiga-List
+                        Eiga
                     </a>
-                </li>
-                <li role="presentation">
-                       -----------   
+                        　//   
                 </li>
             </ul>
             <ul class="nav" role="tablist">            
                 <li role="presentation">
                     <a href="http://album-list.com/">
-                        Album-List
+                        Album
                     </a>
                 </li>
             </ul>
