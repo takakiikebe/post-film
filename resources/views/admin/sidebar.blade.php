@@ -11,6 +11,26 @@
                         Dashboard
                     </a>
                 </li>
+                <li role="presentation">
+                    <a href="http://cinema-list.com/">
+                        Cinema-List
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a href="http://eiga-list.com/">
+                        Eiga-List
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a href="http://album-list.com/">
+                        Album-List
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a href="http://book-list.co/">
+                        Book-List
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
