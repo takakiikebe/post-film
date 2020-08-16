@@ -12,7 +12,7 @@
                     </a>
                 </li>
                 <li role="presentation">
-                
+                       -----------                
                 </li>
             </ul>
             <ul class="nav" role="tablist">         
@@ -22,7 +22,7 @@
                     </a>
                 </li>
                 <li role="presentation">
-                
+                       -----------   
                 </li>
             </ul>         
             <ul class="nav" role="tablist">         
@@ -32,7 +32,7 @@
                     </a>
                 </li>
                 <li role="presentation">
-                
+                       -----------   
                 </li>
             </ul>
             <ul class="nav" role="tablist">            
@@ -42,7 +42,7 @@
                     </a>
                 </li>
                 <li role="presentation">
-                
+                       -----------   
                 </li>
             </ul>
             <ul class="nav" role="tablist">            
@@ -50,19 +50,6 @@
                     <a href="http://album-list.com/">
                         Album-List
                     </a>
-                </li>
-                <li role="presentation">
-                
-                </li>
-            </ul>
-            <ul class="nav" role="tablist">   
-                <li role="presentation">
-                    <a href="http://book-list.co/">
-                        Book-List
-                    </a>
-                </li>
-                <li role="presentation">
-                
                 </li>
             </ul>
         </div>
