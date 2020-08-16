@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Recommend List</title>
+        <title>Contents-List</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -79,15 +79,15 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Recommend-List
+                    Contents-List
                 </div>
 
                 <div class="links">
-                    <a href="https://cinema-list.com/">Cinema</a>
-                    <a href="https://eiga-list.com">Eiga</a>
-                    <a href="https://album-list.com">Music-Album</a>
-                    <a href="https://book-list.co">Book</a>
-                    <a href="https://mylist24.com">Site</a>
+                    <a href="http://mylist24.com/">Site</a>                
+                    <a href="http://cinema-list.com/">Cinema</a>
+                    <a href="http://eiga-list.com/">Eiga</a>
+                    <a href="http://album-list.com/">Music-Album</a>
+                    <a href="http://book-list.co/">Book</a>
                 </div>
             </div>
         </div>
