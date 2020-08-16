@@ -9,8 +9,7 @@
                 <li role="presentation">
                     <a href="{{ url('/admin') }}">
                         Dashboard
-                    </a>
-                       　//                
+                    </a>            
                 </li>
             </ul>
             <ul class="nav" role="tablist">         
@@ -18,7 +17,10 @@
                     <a href="http://mylist24.com/">
                         Site
                     </a>
-                        　//                   
+                        　//     
+                     <a href="http://album-list.com/">
+                        Album
+                    </a>                        
                 </li>
             </ul>         
             <ul class="nav" role="tablist">         
@@ -27,21 +29,9 @@
                         Cinema
                     </a>
                         　//   
-                </li>
-            </ul>
-            <ul class="nav" role="tablist">            
-                <li role="presentation">
                     <a href="http://eiga-list.com/">
                         Eiga
-                    </a>
-                        　//   
-                </li>
-            </ul>
-            <ul class="nav" role="tablist">            
-                <li role="presentation">
-                    <a href="http://album-list.com/">
-                        Album
-                    </a>
+                    </a>                        
                 </li>
             </ul>
         </div>
