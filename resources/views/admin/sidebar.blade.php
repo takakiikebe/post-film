@@ -17,7 +17,7 @@
                     <a href="http://mylist24.com/">
                         Site
                     </a>
-                        　//     
+                        //     
                      <a href="http://album-list.com/">
                         Album
                     </a>                        
@@ -28,7 +28,7 @@
                     <a href="http://cinema-list.com/">
                         Cinema
                     </a>
-                        　//   
+                        //   
                     <a href="http://eiga-list.com/">
                         Eiga
                     </a>                        
