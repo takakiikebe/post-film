@@ -11,7 +11,8 @@
                         Dashboard
                     </a>
                 </li>
-                <li>
+                <li role="presentation">
+                
                 </li>
             </ul>
             <ul class="nav" role="tablist">         
@@ -20,7 +21,8 @@
                         Site-List
                     </a>
                 </li>
-                <li>
+                <li role="presentation">
+                
                 </li>
             </ul>         
             <ul class="nav" role="tablist">         
@@ -29,7 +31,8 @@
                         Cinema-List
                     </a>
                 </li>
-                <li>
+                <li role="presentation">
+                
                 </li>
             </ul>
             <ul class="nav" role="tablist">            
@@ -38,7 +41,8 @@
                         Eiga-List
                     </a>
                 </li>
-                <li>
+                <li role="presentation">
+                
                 </li>
             </ul>
             <ul class="nav" role="tablist">            
@@ -47,7 +51,8 @@
                         Album-List
                     </a>
                 </li>
-                <li>
+                <li role="presentation">
+                
                 </li>
             </ul>
             <ul class="nav" role="tablist">   
@@ -56,7 +61,8 @@
                         Book-List
                     </a>
                 </li>
-                <li>
+                <li role="presentation">
+                
                 </li>
             </ul>
         </div>
