@@ -16,8 +16,12 @@ class CreatePostsTable extends Migration
             $table->increments('id');
             $table->timestamps();
             $table->string('title')->nullable();
+            $table->int('release');
             $table->text('content')->nullable();
             $table->string('category');
+            $table->string('url1');
+            $table->string('url2');
+            $table->int('cat_id');
             });
     }
 
