@@ -23,9 +23,10 @@ class CategoriesController extends Controller
         if (!empty($keyword)) {
             $categories = Category::where('name', 'LIKE', "%$keyword%")
                 ->orWhere('namejapa', 'LIKE', "%$keyword%")
+                ->orWhere('content', 'LIKE', "%$keyword%")
                 ->latest()->paginate($perPage);
         } else {
-            $posts = Post::latest()->paginate($perPage);
+            $categories = Category::latest()->paginate($perPage);
         }
 
         return view('admin.categories.index', compact('categories'));
