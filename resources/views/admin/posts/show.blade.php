@@ -32,7 +32,9 @@
                                     <tr><th> Genre </th><td> {{ $post->genre }} </td></tr>
                                     <tr><th> Url1 </th><td><form action="{{ url($post->url1) }}"><button type="submit" class="btn btn-primary"><i class="fa fa-btn"></i>100info</button></form> {{ $post->url1 }} </td></tr>
                                     <tr><th> Url2 </th><td><form action="{{ url($post->url2) }}"><button type="submit" class="btn btn-primary">Facebook</button></form> {{ $post->url2 }} </td></tr>
-                                </tbody>
+                                    <tr><th> Release </th><td> {{ $post->release }} </td></tr>
+                                    <tr><th> Category_id </th><td> {{ $post->category_id }} </td></tr>
+                                 </tbody>
                             </table>
                         </div>
 
