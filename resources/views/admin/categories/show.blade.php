@@ -7,7 +7,7 @@
 
             <div class="col-md-9">
                 <div class="card">
-                    <div class="card-header">Carecory {{ $post->id }}</div>
+                    <div class="card-header">Category {{ $category->id }}</div>
                     <div class="card-body">
 
                         <a href="{{ url('/admin/categories') }}" title="Back"><button class="btn btn-warning btn-sm"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back</button></a>
@@ -29,6 +29,7 @@
                                     </tr>
                                     <tr><th> Name </th><td> {{ $category->name }} </td></tr>
                                     <tr><th> NameJapa </th><td> {{ $category->namejapa }} </td></tr>
+                                    <tr><th> Content </th><td> {{ $category->content }} </td></tr>
                                     <tr><th> Url1 </th><td><form action="{{ url($category->url1) }}"><button type="submit" class="btn btn-primary">100info</button></form> {{ $category->url1 }} </td></tr>
                                     <tr><th> Url2 </th><td><form action="{{ url($category->url2) }}"><button type="submit" class="btn btn-primary">Facebook</button></form> {{ $category->url2 }} </td></tr>
                                  </tbody>
