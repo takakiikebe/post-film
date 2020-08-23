@@ -27,8 +27,8 @@
                                     <tr>
                                         <th>ID</th><td>{{ $category->id }}</td>
                                     </tr>
-                                    <tr><th> Name </th><td> {{ $category->name }} </td></tr>
-                                    <tr><th> NameJapa </th><td> {{ $category->namejapa }} </td></tr>
+                                    <tr><th> TitleEng </th><td> {{ $category->titleeng }} </td></tr>
+                                    <tr><th> Title </th><td> {{ $category->title }} </td></tr>
                                     <tr><th> Content </th><td> {{ $category->content }} </td></tr>
                                     <tr><th> Url1 </th><td><form action="{{ url($category->url1) }}"><button type="submit" class="btn btn-primary">100info</button></form> {{ $category->url1 }} </td></tr>
                                     <tr><th> Url2 </th><td><form action="{{ url($category->url2) }}"><button type="submit" class="btn btn-primary">Facebook</button></form> {{ $category->url2 }} </td></tr>
