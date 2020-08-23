@@ -1,7 +1,8 @@
 <?php
 
-Use App Category
-Use App Post
+Use App\Category;
+Use App\Post;
+use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
