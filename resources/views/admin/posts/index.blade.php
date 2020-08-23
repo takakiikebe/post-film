@@ -39,8 +39,8 @@
                                         <td>{{ $loop->iteration or $item->id }}</td>
                                         <td>{{ $item->title }}</td><td>{{ $item->genre }}</td>
                                         <td>
-                                            <a href="{{ url('/admin/posts/' . $item->id) }}" title="View Post"><button class="btn btn-info btn-sm"><i class="fa fa-eye" aria-hidden="true"></i> View</button></a>
-                                            <a href="{{ url('/admin/posts/' . $item->id . '/edit') }}" title="Edit Post"><button class="btn btn-primary btn-sm"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit</button></a>
+                                            <a href="{{ $item->url1 }}" title="100"><button class="btn btn-info btn-sm"> 100</button></a>
+                                            <a href="{{ $item->url2 }}" title="facebook"><button class="btn btn-primary btn-sm"> facebook</button></a>
                                         </td>
                                     </tr>
                                 @endforeach
