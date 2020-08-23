@@ -40,7 +40,12 @@
                                         <td>{{ $item->titleeng }}</td><td>{{ $item->title }}</td>
                                         <td>
                                             <a href="{{ $item->url1 }}" title="100"><button class="btn btn-info btn-sm"> 100</button></a>
-                                            <a href="{{ $item->url2 }}" title="facebook"><button class="btn btn-primary btn-sm"> List</button></a>
+                                            <a href="{{ $item->url2 }}" title="PostList"><button class="btn btn-primary btn-sm"> List</button></a>
+                                            <form action="{{ url('postlist/'.$category->id) }}">
+                                                <button type="submit" class="btn btn-info">
+                                                    <i class="fa fa-btn"></i>PostList
+                                                </button>
+                                            </form>
                                         </td>
                                     </tr>
                                 @endforeach
