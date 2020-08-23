@@ -40,7 +40,7 @@
             @if (count($posts) > 0)
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        {{ $category->name }} >> Posts List
+                        {{ $category->title }} >> Posts List
                     </div>
 
                     <div class="panel-body">
