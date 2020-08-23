@@ -17,6 +17,9 @@ class CreateCategoriesTable extends Migration
             $table->increments('id');
             $table->string('name', 30);
             $table->string('namejapa', 30);
+            $table->string('content');
+            $table->string('url1');
+            $table->string('url2');
             $table->timestamps();
         });
     }
