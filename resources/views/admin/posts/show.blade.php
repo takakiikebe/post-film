@@ -29,7 +29,7 @@
                                     </tr>
                                     <tr><th> Title </th><td> {{ $post->title }} </td></tr>
                                     <tr><th> Content </th><td> {{ $post->content }} </td></tr>
-                                    <tr><th> Category </th><td> {{ $post->category }} </td></tr>
+                                    <tr><th> Genre </th><td> {{ $post->genre }} </td></tr>
                                     <tr><th> Url1 </th><td><form action="{{ url($post->url1) }}"><button type="submit" class="btn btn-primary"><i class="fa fa-btn"></i>100info</button></form> {{ $post->url1 }} </td></tr>
                                     <tr><th> Url2 </th><td><form action="{{ url($post->url2) }}"><button type="submit" class="btn btn-primary">Facebook</button></form> {{ $post->url2 }} </td></tr>
                                 </tbody>
