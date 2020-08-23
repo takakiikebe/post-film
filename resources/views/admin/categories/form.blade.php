@@ -1,14 +1,14 @@
-<div class="form-group {{ $errors->has('name') ? 'has-error' : ''}}">
-    <label for="name" class="col-md-4 control-label">{{ 'Name' }}</label>
+<div class="form-group {{ $errors->has('titleeng') ? 'has-error' : ''}}">
+    <label for="name" class="col-md-4 control-label">{{ 'TitleEng' }}</label>
     <div class="col-md-6">
-        <input class="form-control" name="name" type="text" id="name" value="{{ $category->name or ''}}" >
-        {!! $errors->first('name', '<p class="help-block">:message</p>') !!}
+        <input class="form-control" name="titleeng" type="text" id="titleeng" value="{{ $category->titleeng or ''}}" >
+        {!! $errors->first('titleeng', '<p class="help-block">:message</p>') !!}
     </div>
-</div><div class="form-group {{ $errors->has('namejapa') ? 'has-error' : ''}}">
-    <label for="namejapa" class="col-md-4 control-label">{{ 'Namejapa' }}</label>
+</div><div class="form-group {{ $errors->has('title') ? 'has-error' : ''}}">
+    <label for="title" class="col-md-4 control-label">{{ 'Title' }}</label>
     <div class="col-md-6">
-        <input class="form-control" name="namejapa" type="text" id="namejapa" value="{{ $category->namejapa or ''}}" >
-        {!! $errors->first('namejapa', '<p class="help-block">:message</p>') !!}
+        <input class="form-control" name="title" type="text" id="title" value="{{ $category->title or ''}}" >
+        {!! $errors->first('title', '<p class="help-block">:message</p>') !!}
     </div>
 </div><div class="form-group {{ $errors->has('content') ? 'has-error' : ''}}">
     <label for="content" class="col-md-4 control-label">{{ 'Content' }}</label>
