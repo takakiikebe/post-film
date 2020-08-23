@@ -13,11 +13,11 @@
 
 // Some changes
 Route::get('/', function () {
-    return redirect()->to('/admin/categories');
+    return redirect()->to('/admin/posts');
 });
 
 Route::get('/admin', function () {
-    return redirect()->to('/admin/posts');
+    return redirect()->to('/admin/categories');
 });
 
 Route::get('/log', function () {
