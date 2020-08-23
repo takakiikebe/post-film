@@ -21,7 +21,7 @@ class CreatePostsTable extends Migration
             $table->string('genre');
             $table->string('url1');
             $table->string('url2');
-            $table->int('cat_id');
+            $table->int('category_id');
             });
     }
 
