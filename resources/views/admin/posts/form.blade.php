@@ -16,15 +16,15 @@
         <textarea class="form-control" rows="5" name="content" type="textarea" id="content" >{{ $post->content or ''}}</textarea>
         {!! $errors->first('content', '<p class="help-block">:message</p>') !!}
     </div>
-</div><div class="form-group {{ $errors->has('category') ? 'has-error' : ''}}">
-    <label for="category" class="col-md-4 control-label">{{ 'Category' }}</label>
+</div><div class="form-group {{ $errors->has('genre') ? 'has-error' : ''}}">
+    <label for="genre" class="col-md-4 control-label">{{ 'Genre' }}</label>
     <div class="col-md-6">
-        <select name="category" class="form-control" id="category" >
+        <select name="genre" class="form-control" id="genre" >
     @foreach (json_decode('{"action": "Action", "serious": "Serious", "shocking": "Shocking", "comedy": "Comedy", "heartful": "Heartful", "romance": "Romance"}', true) as $optionKey => $optionValue)
-        <option value="{{ $optionKey }}" {{ (isset($post->category) && $post->category == $optionKey) ? 'selected' : ''}}>{{ $optionValue }}</option>
+        <option value="{{ $optionKey }}" {{ (isset($post->genre) && $post->genre == $optionKey) ? 'selected' : ''}}>{{ $optionValue }}</option>
     @endforeach
 </select>
-        {!! $errors->first('category', '<p class="help-block">:message</p>') !!}
+        {!! $errors->first('genre', '<p class="help-block">:message</p>') !!}
     </div>
 </div><div class="form-group {{ $errors->has('url1') ? 'has-error' : ''}}">
     <label for="url1" class="col-md-4 control-label">{{ 'Url1' }}</label>
