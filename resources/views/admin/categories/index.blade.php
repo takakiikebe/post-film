@@ -30,17 +30,17 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th>#</th><th>Name</th><th>NameJapa</th><th>Actions</th>
+                                        <th>#</th><th>TitleEng</th><th>Title</th><th>Actions</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                 @foreach($categories as $item)
                                     <tr>
                                         <td>{{ $loop->iteration or $item->id }}</td>
-                                        <td>{{ $item->name }}</td><td>{{ $item->namejapa }}</td>
+                                        <td>{{ $item->titleeng }}</td><td>{{ $item->title }}</td>
                                         <td>
                                             <a href="{{ $item->url1 }}" title="100"><button class="btn btn-info btn-sm"> 100</button></a>
-                                            <a href="{{ $item->url2 }}" title="facebook"><button class="btn btn-primary btn-sm"> facebook</button></a>
+                                            <a href="{{ $item->url2 }}" title="facebook"><button class="btn btn-primary btn-sm"> List</button></a>
                                         </td>
                                     </tr>
                                 @endforeach
