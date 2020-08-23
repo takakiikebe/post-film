@@ -8,7 +8,7 @@ c<!DOCTYPE html>
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Recommend-List') }}</title>
+    <title>{{ config('app.name', 'おすすめFilm-List') }}</title>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
