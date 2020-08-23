@@ -1,5 +1,8 @@
 <?php
 
+Use App Category
+Use App Post
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -31,3 +34,14 @@ Route::get('/log', function () {
 Route::resource('admin/posts', 'Admin\\PostsController');
 
 Route::resource('admin/categories', 'Admin\\CategoriesController');
+
+/**
+    * Show Category-Postinfo Dashboard
+    */
+Route::get('/postlist/{id}', function ($id) {
+    error_log("INFO: get /category/id");
+    return view('postlists', [
+        'categories' => Category::where('id', $id)->get(),
+        'posts' => Post::where('category_id', $id)->get(),
+    ]);
+}); 
