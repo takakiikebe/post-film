@@ -21,8 +21,8 @@ class CategoriesController extends Controller
         $perPage = 25;
 
         if (!empty($keyword)) {
-            $categories = Category::where('name', 'LIKE', "%$keyword%")
-                ->orWhere('namejapa', 'LIKE', "%$keyword%")
+            $categories = Category::where('titleeng', 'LIKE', "%$keyword%")
+                ->orWhere('title', 'LIKE', "%$keyword%")
                 ->orWhere('content', 'LIKE', "%$keyword%")
                 ->latest()->paginate($perPage);
         } else {
