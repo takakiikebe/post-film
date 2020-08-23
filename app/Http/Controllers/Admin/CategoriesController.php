@@ -4,11 +4,11 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests;
-use App\Jobs\PostCreated;
-use App\Post;
+use App\Jobs\CategoryCreated;
+use App\Category;
 use Illuminate\Http\Request;
 
-class PostsController extends Controller
+class CategoriesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -21,7 +21,7 @@ class PostsController extends Controller
         $perPage = 25;
 
         if (!empty($keyword)) {
-            $categories = Post::where('name', 'LIKE', "%$keyword%")
+            $categories = Category::where('name', 'LIKE', "%$keyword%")
                 ->orWhere('namejapa', 'LIKE', "%$keyword%")
                 ->latest()->paginate($perPage);
         } else {
@@ -53,9 +53,9 @@ class PostsController extends Controller
         
         $requestData = $request->all();
         
-        Post::create($requestData);
+        Category::create($requestData);
 
-        dispatch(new PostCreated);
+        dispatch(new CategoryCreated);
 
         return redirect('admin/categories')->with('flash_message', 'Category added!');
     }
