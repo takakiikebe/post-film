@@ -13,7 +13,7 @@
 
 // Some changes
 Route::get('/', function () {
-    return redirect()->to('/admin/posts');
+    return redirect()->to('/admin/categories');
 });
 
 Route::get('/admin', function () {
