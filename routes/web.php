@@ -16,7 +16,7 @@ Route::get('/', function () {
     return redirect()->to('/admin/posts');
 });
 
-Route::get('/admin', function () {
+Route::get('/category', function () {
     return redirect()->to('/admin/categories');
 });
 
@@ -29,3 +29,5 @@ Route::get('/log', function () {
 });
 
 Route::resource('admin/posts', 'Admin\\PostsController');
+
+Route::resource('admin/categories', 'Admin\\CategoriesController');
