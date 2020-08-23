@@ -38,6 +38,12 @@
         <input class="form-control" name="url2" type="text" id="url2" value="{{ $post->url2 or ''}}" >
         {!! $errors->first('url2', '<p class="help-block">:message</p>') !!}
     </div>
+</div><div class="form-group {{ $errors->has('category_id') ? 'has-error' : ''}}">
+    <label for="release" class="col-md-4 control-label">{{ 'Category_id' }}</label>
+    <div class="col-md-6">
+        <input class="form-control" name="category_id" type="text" id="category_id" value="{{ $post->category_id or ''}}" >
+        {!! $errors->first('category_id', '<p class="help-block">:message</p>') !!}
+    </div>
 </div>
 
 <div class="form-group">
