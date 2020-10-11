@@ -7,9 +7,32 @@
         <div class="card-body">
             <ul class="nav" role="tablist">
                 <li role="presentation">
-                    <a href="{{ url('/admin') }}">
-                        Dashboard
+                <li role="presentation">
+                    [ Genre ]
+                    <a href="http://film-link.com/admin/posts?search=shocking">
+                        Shocking
                     </a>            
+                    <a href="http://film-link.com/admin/posts?search=serious">
+                        Serious
+                    </a>            
+                    <a href="http://film-link.com/admin/posts?search=action">
+                        Action
+                    </a>            
+                    <a href="http://film-link.com/admin/posts?search=comedy">
+                        Comedy
+                    </a>            
+                    <a href="http://film-link.com/admin/posts?search=romance">
+                        Romance
+                    </a>            
+                    <a href="http://film-link.com/admin/posts?search=heartful">
+                        Heartful
+                    </a>            
+                    <a href="http://film-link.com/admin/posts?search=film">
+                        Other Film
+                    </a>            
+                </li>
+                   ------------------------
+            </ul>  
                 </li>
             </ul>
             <ul class="nav" role="tablist">         
